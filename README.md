@@ -20,8 +20,8 @@ A RESTful API for user profile management with authentication using **Express.js
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/user-profile-api.git
-cd user-profile-api
+git clone https://github.com/amankum2004/user-profile-management-api.git
+cd user-profile-management-api
 
 ### 2. Install Dependencies
 - npm install
@@ -30,6 +30,7 @@ cd user-profile-api
 - Create a .env file in the root and add the following:
     MONGO_URI=mongodb+srv://your_mongodb_url
     JWT_SECRET=your_jwt_secret
+    PORT=8000
 
 ### Run the server
 - npm start
